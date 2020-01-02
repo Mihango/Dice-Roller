@@ -46,11 +46,8 @@ class RollDiceTest {
 
     @Test
     fun test_roll_dice() {
-        // generate random number
-        val randomInt = Random().nextInt(6) + 1
-
-        // set text
-
-        //
+        Espresso.onView(withId(R.id.roll_button)).perform(click())
+        // access view model and get value
+        rule.activity
     }
 }
