@@ -3,4 +3,5 @@
     <string name="roll">ROLL</string>
     <string name="let_roll">Lets Roll</string>
     <string name="dice_image">dice image</string>
+    <string name="result">Roll no is : %d.</string>
 </resources>
